@@ -1,0 +1,33 @@
+bin/
+*.class
+.settings/
+# Never commit a file that contains your real MySQL password.
+
+# Compiled Java files
+*.class
+bin/
+out/
+target/
+build/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+hs_err_pid*
+replay_pid*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+secrets.properties
+application-local.properties
+
+# Eclipse workspace metadata
+.metadata/
